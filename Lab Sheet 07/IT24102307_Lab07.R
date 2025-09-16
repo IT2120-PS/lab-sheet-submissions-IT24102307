@@ -1,0 +1,15 @@
+setwd('C:\\Users\\msi\\Desktop\\Sliit Uni\\2 YR 1 Sem\\Probability and Statistics - IT2120\\Labs\\Lab 7')
+
+#Exercise
+#1
+punif(25, min=0, max=40, lower.tail = TRUE) - punif(10, min=0, max=40, lower.tail = TRUE)
+
+#2
+pexp(2, rate=1/3, lower.tail = TRUE)
+
+#3
+#(i)
+pnorm(130, mean=100, sd=15, lower.tail = FALSE)
+
+#(ii)
+qnorm(0.95, mean=100, sd=15, lower.tail = TRUE)
